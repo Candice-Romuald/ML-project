@@ -7,7 +7,7 @@ ML-project                         Comments:
 │   README.md                       │      
 │                                   │   
 └───Data                            │
-│   │  ImportanceBoost.csv          │  #
+│   │  ImportanceBoost.csv          │  # This is data that we got in boost filed and used in look test data for visualization
 │   │  sampleSubmission.csv         │  # A test to figure out how to submit
 │   │  test_data.csv                │   
 │   │  training_data.csv            │                      
@@ -15,19 +15,19 @@ ML-project                         Comments:
 └───src                             │
 │   │                               │
 │   └───Linear methods              │  
-│   │     │  Generalize Reg.ipnyb   │  #
-│   │     │  Lasso.ipynb            │  # Lasso submission, explained in the rapport
-│   │     │  LM.ipynb               │  #
+│   │     │  Generalize Reg.ipnyb   │  # exploration of different regularization
+│   │     │  Lasso.ipynb            │  # first Lasso exploration 
+│   │     │  LM.ipynb               │  # first exploration of linear regression and subset selection
 │   │                               │  
 │   └───Non linear methods          │  # 
 │   │     │  Boosting.ipnyb         │  #
 │   │     │  NN.ipynb               │  #
-│   │     │  RF2.ipynb              │  #
+│   │     │  RF2.ipynb              │  # continuity of the Tree and RF file
 │   │     │  Tree and RF.ipynb      │  #
 │   │                               │
 │   └───visualize data              │
 │         │  Custom.ipynb           │  # Our best model and submission ("innovative approach" in the rapport)
-│         │  Look test data.ipynb   │  #
+│         │  Look test data.ipynb   │  # Important data plotted
 │         │  PCA_test.ipynb         │  # PCA visualization and PCR test
 │                                   │  
 └───Submission                      │
